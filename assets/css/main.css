@@ -1,10 +1,5 @@
 @import url(font-awesome.min.css);
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
-/*
-	Spectral by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 /* Reset */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
@@ -2313,7 +2308,12 @@ body.is-menu-visible #menu {
     left: 1.25em;
     line-height: inherit;
     position: absolute;
-    top: 0; }
+    top: 0;
+    font-family: "Comfortaa" !important;
+    text-transform: lowercase;
+    font-size: 1.5em; }
+    #header h1 .deci {
+      color: rgba(0, 180, 255, 0.6); }
     #header h1 a {
       border: 0;
       display: block;
@@ -2405,11 +2405,15 @@ body.is-menu-visible #menu {
     -ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
     transition: transform 0.5s ease, opacity 0.5s ease;
     display: inline-block;
-    font-size: 1.75em;
+    font-size: 4em;
     opacity: 1;
     padding: 0.35em 1em;
     position: relative;
-    z-index: 1; }
+    z-index: 1;
+    font-family: "Comfortaa" !important;
+    text-transform: lowercase; }
+    #banner h2 .deci {
+      color: rgba(0, 180, 255, 0.6) !important; }
     #banner h2:before, #banner h2:after {
       -moz-transition: width 0.85s ease;
       -webkit-transition: width 0.85s ease;
@@ -2433,7 +2437,8 @@ body.is-menu-visible #menu {
       right: 0; }
   #banner p {
     letter-spacing: 0.225em;
-    text-transform: uppercase; }
+    font-size: 1.5em;
+    font-family: "Comfortaa" !important; }
     #banner p a {
       color: inherit; }
   #banner .more {
@@ -2456,7 +2461,7 @@ body.is-menu-visible #menu {
     height: 8.5em;
     left: 50%;
     letter-spacing: 0.225em;
-    margin-left: -8.5em;
+    margin-left: -8em;
     opacity: 1;
     outline: 0;
     padding-left: 0.225em;
@@ -2506,7 +2511,7 @@ body.is-menu-visible #menu {
       height: auto;
       min-height: 0; }
       #banner h2 {
-        font-size: 1.25em; }
+        font-size: 2em; }
       #banner br {
         display: none; }
       #banner .more {
@@ -2672,10 +2677,10 @@ body.is-mobile.landing #page-wrapper {
   background: none; }
 body.is-mobile.landing #banner,
 body.is-mobile.landing .wrapper.style4 {
-  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-  background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-  background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/light.jpg");
+  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/light.jpg");
+  background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/light.jpg");
+  background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/light.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; }
